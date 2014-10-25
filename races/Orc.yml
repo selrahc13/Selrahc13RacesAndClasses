@@ -1,0 +1,13 @@
+Orc:
+  config:
+    racetag: '[Orc]'
+    raceMaxHealth: 30
+    armor: iron,diamond,chain
+  traits:
+    DamageReduceTrait:
+      operation: '*'
+      value: 0.5
+    BerserkerRageTrait:
+      operation: +
+      value: 1
+      cooldown: 30

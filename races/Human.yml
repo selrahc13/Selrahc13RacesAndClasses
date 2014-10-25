@@ -1,0 +1,4 @@
+Human:
+  config:
+    racetag: '[Human]'
+    raceMaxHealth: 20

@@ -1,0 +1,70 @@
+Vampire:
+  config:
+    racetag: '[Vampire]'
+    raceMaxHealth: 30
+    armor: leather,chain
+  traits:
+    VampirismTrait:
+      value: 10
+      minLevel: 5
+    SpecificRegenerationTrait:
+      seconds: 1
+      health: 0.5
+      onlyInNight: true
+      displayName: Nightly revival
+      minLevel: 15
+    SunDamageTrait:
+      seconds: 5
+      damage: 1
+      displayName: Sunlight is deadly
+      maxLevel: 50
+    UnderwaterBreathTrait:
+      time: 120
+      minLevel: 10
+    LastStandTrait:
+      value: 10
+      cooldown: 15
+      displayName: Hard to kill
+    DodgeTrait:
+      chance: 30
+    DamageIncreaseTrait:
+      operation: +
+      value: 1.25
+      displayName: Vampiric Strength
+    JumpHeightIncreaseTrait:
+      value: 2
+      minLevel: 6
+    MovementSpeedTrait:
+      value: 0.5
+      minLevel: 11
+      onlyInNight: true
+    DrainResistanceTrait:
+      operation: +
+      value: 0.5
+      onlyInNight: true
+    FallResistanceTrait:
+      operation: +
+      value: 0.75
+      onlyInNight: true
+    FireResistanceTrait:
+      operation: '-'
+      value: 50
+    InvisibleTrait:
+      cost: 10
+      duration: 30
+      minLevel: 10
+      onlyInNight: true
+      cooldown: 60
+    StunSpellTrait:
+      duration: 5
+      range: 5
+      displayName: Vampiric Charm
+    TeleportTrait:
+      cost: 10
+      cooldown: 60
+      minLevel: 5
+    PermanentPotionTrait:
+      amplifier: 1
+      type: 16
+      removeParticles: true
+      displayName: Clear sight

@@ -1,0 +1,11 @@
+warrior:
+  config:
+    classtag: '[Warrior]'
+    health: '+5'
+  traits:
+    SwordDamageIncreaseTrait:
+      operation: +
+      value: 1
+    AxeDamageIncreaseTrait:
+      operation: +
+      value: 1
