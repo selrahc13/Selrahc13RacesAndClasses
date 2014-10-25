@@ -1,4 +1,21 @@
 Human:
   config:
     racetag: '[Human]'
-    raceMaxHealth: 20
+    raceMaxHealth: 25
+  traits:
+    TauntTrait:
+      displayName: 'Draw Aggro'
+      seconds: 10
+      range: 10
+    SprintTrait:
+      displayName: 'Walking Stick'
+      duration: 5
+      value: STICK
+    FireResistanceTrait:
+      displayName: 'Stop, drop and roll'
+      operation: '+'
+      value: 0.25
+    LastStandTrait:
+      displayName: 'Survival of the fittest'
+      value: 30
+      cooldown: 300
