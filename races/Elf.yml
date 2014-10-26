@@ -5,9 +5,40 @@ Elf:
     armor: leather,gold,chain
   traits:
     FallResistanceTrait:
+      displayName: 'Feather Falling'
       operation: '-'
       value: 2
     SprintTrait:
+      displayName: 'Running on Leaves'
       duration: 10
       value: 3
       cooldown: 60
+    DodgeTrait:
+      displayName: 'Agile Footwork'
+      chance: 40
+    DamageReduceTrait:
+      displayName: 'Beauty Must Suffer'
+      operation: '-'
+      value: .15
+    HungerReplenishTrait:
+      displayName: 'Food is more filling'
+      operation: '+'
+      value: 2
+    ManaRegenerationTrait:
+      displayName: 'Focused mana gathering'
+      time: 3
+      value: 5
+    ArrowDamageIncreaseTrait:
+      displayName: 'Accurate shot'
+      operation: '*'
+      value: 1.25
+    MagicHealTrait:
+      displayName: 'Emergency Aid'
+      cost: 10
+      value: 2
+      blocks: 5
+    LightTrait:
+      displayName: 'Light of the Evenstar'
+      cost: 15
+      duration: 120
+    
