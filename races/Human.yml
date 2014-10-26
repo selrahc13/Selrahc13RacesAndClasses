@@ -10,7 +10,7 @@ Human:
     SprintTrait:
       displayName: 'Walking Stick'
       duration: 5
-      value: STICK
+      value: 2
     FireResistanceTrait:
       displayName: 'Stop, drop and roll'
       operation: '+'

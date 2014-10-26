@@ -8,5 +8,5 @@ Fairy:
       displayName: 'Falling doesn't hurt'
       operation: '+'
       value: 1
-  permission:
+  permissions:
     - commandbook.flight.onjoin
