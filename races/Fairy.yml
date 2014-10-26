@@ -2,11 +2,11 @@ Fairy:
   config:
     racetag: '[Fairy]'
     raceMaxHealth: 10
-    armor: none
+    armor: leather
   traits:
     FallResistanceTrait:
       displayName: 'Falling doesn't hurt'
-      operation: '+'
-      value: 1
+      operation: '*'
+      value: 0
   permissions:
     - commandbook.flight.onjoin
