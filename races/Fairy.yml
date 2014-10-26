@@ -1,0 +1,12 @@
+Fairy:
+  config:
+    racetag: '[Fairy]'
+    raceMaxHealth: 10
+    armor: none
+  traits:
+    FallResistanceTrait:
+      displayName: 'Falling doesn't hurt'
+      operation: '+'
+      value: 1
+  permission:
+    - commandbook.flight.onjoin
