@@ -19,3 +19,5 @@ Human:
       displayName: 'Survival of the fittest'
       value: 30
       cooldown: 300
+  permissions:
+    - commandbook.kit.kits.human

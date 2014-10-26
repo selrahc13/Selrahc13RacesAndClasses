@@ -41,4 +41,5 @@ Elf:
       displayName: 'Light of the Evenstar'
       cost: 15
       duration: 120
-    
+  permissions:
+    - commandbook.kit.kits.elf

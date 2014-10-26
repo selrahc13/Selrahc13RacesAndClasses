@@ -10,3 +10,4 @@ Fairy:
       value: 0
   permissions:
     - commandbook.flight.onjoin
+    - commandbook.kit.kits.fairy
