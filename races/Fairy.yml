@@ -5,7 +5,7 @@ Fairy:
     armor: leather
   traits:
     FallResistanceTrait:
-      displayName: 'Falling doesn't hurt'
+      displayName: 'Falling does not hurt'
       operation: '*'
       value: 0
   permissions:
