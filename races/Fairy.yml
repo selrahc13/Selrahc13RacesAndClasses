@@ -10,4 +10,5 @@ Fairy:
       value: 0
   permissions:
     - commandbook.flight.onjoin
+    - commandbook.flight.toggle
     - commandbook.kit.kits.fairy

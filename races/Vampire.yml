@@ -28,7 +28,7 @@ Vampire:
     DodgeTrait:
       chance: 30
     DamageIncreaseTrait:
-      operation: +
+      operation: '+'
       value: 1.25
       displayName: Vampiric Strength
     JumpHeightIncreaseTrait:
@@ -39,11 +39,11 @@ Vampire:
       minLevel: 11
       onlyInNight: true
     DrainResistanceTrait:
-      operation: +
+      operation: '+'
       value: 0.5
       onlyInNight: true
     FallResistanceTrait:
-      operation: +
+      operation: '*'
       value: 0.75
       onlyInNight: true
     FireResistanceTrait:
